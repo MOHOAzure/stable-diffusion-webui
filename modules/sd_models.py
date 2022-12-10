@@ -10,8 +10,11 @@ from ldm.util import instantiate_from_config
 from modules import shared, modelloader, devices
 from modules.paths import models_path
 
-model_dir = "Stable-diffusion"
-model_path = os.path.abspath(os.path.join(models_path, model_dir))
+model_dir = "/content/drive/MyDrive/stable-diffusion/models"
+model_path = os.path.abspath(os.path.join("", model_dir))
+
+# model_dir = "Stable-diffusion"
+# model_path = os.path.abspath(os.path.join(models_path, model_dir))
 
 CheckpointInfo = namedtuple("CheckpointInfo", ['filename', 'title', 'hash', 'model_name', 'config'])
 checkpoints_list = {}
