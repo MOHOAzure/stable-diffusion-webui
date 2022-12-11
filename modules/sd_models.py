@@ -17,8 +17,11 @@ from modules import shared, modelloader, devices, script_callbacks, sd_vae
 from modules.paths import models_path
 from modules.sd_hijack_inpainting import do_inpainting_hijack, should_hijack_inpainting
 
-model_dir = "models"
-model_path = os.path.abspath(os.path.join("/content/drive/MyDrive/stable-diffusion", model_dir))
+model_dir = "/content/drive/MyDrive/stable-diffusion/models"
+model_path = os.path.abspath(os.path.join("", model_dir))
+
+# model_dir = "Stable-diffusion"
+# model_path = os.path.abspath(os.path.join(models_path, model_dir))
 
 CheckpointInfo = namedtuple("CheckpointInfo", ['filename', 'title', 'hash', 'model_name', 'config'])
 checkpoints_list = {}
