@@ -50,7 +50,7 @@
   "dataset_filename_join_string": " ",
   "training_image_repeats_per_epoch": 1,
   "training_write_csv_every": 500,
-  "sd_model_checkpoint": "[7G]novelai_full+momoko-e+f222.ckpt [9afaf270]",
+  "sd_model_checkpoint": "[SD WD 0.3][NAI 0.7] wd1-2_sd1-4_merged_0.3-novelai_full_0.7-Weighted_Sum-merged.ckpt [04b36c3d]",
   "sd_hypernetwork": "None",
   "sd_hypernetwork_strength": 1,
   "img2img_color_correction": false,
